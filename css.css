@@ -1,0 +1,20 @@
+/* Container */
+.container {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end; /* Pushes form to the right */
+    align-items: center;       /* Vertically center */
+    padding: 40px 20px;
+}
+
+/* Form box */
+.form-box {
+    background-color: grey;
+    padding: 30px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    width: 100%;
+    max-width: 400px;
+    /* Optional: add margin-left to create space from right edge */
+    margin-right: 20px;
+}
